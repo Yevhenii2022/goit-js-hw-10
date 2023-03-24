@@ -5,11 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 10</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
   </head>
   <body>
-    <input type="text" id="search-box" />
-    <ul class="country-list"></ul>
-    <div class="country-info"></div>
+    <h2 class="title">Please type in a country name</h2>
+    <div class="input__container">
+      <input
+        class="js-element"
+        type="text"
+        id="search-box"
+        placeholder="What country are you looking for?"
+      />
+    </div>
+    <ul class="country-list">
+      <!-- <li class="country__item">
+          <img class="country__flag" src="" alt="Country flag" width="50px" />
+          <p class="country__name"></p>
+      </li> -->
+    </ul>
+    <div class="country-info">
+      <!-- <div class="country-info__main">
+        <img class="country__flag" src="" alt="Country flag" width="50px" />
+        <h2 class="country__name--main"></h2>
+      </div>
+      <p class="country__spec"><b>Capital: </b></p>
+      <p class="country__spec"><b>Population: </b></p>
+      <p class="country__spec"><b>Languages: </b></p> -->
+    </div>
 
     <script src="index.js" type="module"></script>
   </body>
